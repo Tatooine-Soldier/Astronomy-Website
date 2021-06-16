@@ -127,6 +127,38 @@ nav span b {
   background-color: black;
 }
 
+.data-container {
+  position: static;
+  border: black solid 5px;
+  border-right: white solid 5px;
+  border-left: white solid 5px;
+  border-radius: 40px;
+  background-color: black;
+  color: white;
+  align-items: center; 
+  margin-left: 86vh;
+  margin-right: 86vh;
+  margin-top: 3vh;
+}
+
+.data-container ul {
+  display: block;
+  justify-content: space-between;
+  padding-right: 40px;
+}
+
+.data-container ul li {
+  list-style: none;
+}
+
+.data-container div {
+  border: white 5px solid;
+  width: 20px;
+  border-radius: 10px;
+  position: relative;
+  left: 45%;
+}
+
 
 
 
