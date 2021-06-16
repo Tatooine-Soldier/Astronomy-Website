@@ -48,6 +48,10 @@ nav {
   top: 0px;
   background-color: black;
   color: white;
+  border: purple solid 4px;
+  border-left: none;
+  border-top: none;
+  border-right: none;
 }
 
 nav ul {
@@ -60,6 +64,13 @@ nav ul li {
   display: block;
   padding: 10px;
   color: white;
+}
+
+nav ul li:hover {
+  color: white;
+  border: solid purple 1px;
+  border-radius: 10px;
+  background-color: rgb(94, 18, 156);
 }
 
 #title_img {
@@ -89,6 +100,31 @@ nav span {
 nav span b {
   padding-left: 10px;
   font-size: 26pt;
+}
+
+#login_button {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+}
+
+#login_button button {
+  border: solid purple 3px;
+  padding: 5px;
+}
+
+.main {
+  background-color: grey;
+  height: 140vh;
+  display: grid;
+}
+
+.sidebar {
+  background-color: rgba(180, 96, 180, 0.795);
+}
+
+.content {
+  background-color: black;
 }
 
 
