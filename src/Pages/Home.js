@@ -18,9 +18,10 @@ export default function Home() {
                     <div>
                     </div>
                     <ul>
-                        <li>Latitude: {mydata.iss_position.latitude}</li>
+                        {JSON.stringify(mydata.iss_position)}
+                        {/* <li>Latitude: {mydata.iss_position.latitude}</li>
                         <li>Longitude: {mydata.iss_position.longitude}</li>
-                        {console.log(mydata.iss_position.latitude)}
+                        {console.log(mydata.iss_position.latitude)} */}
                     </ul>
                 </section>
             </section>
